@@ -33,15 +33,10 @@ def main():
         # st.write(desc_temp)
         st.markdown(desc_temp, unsafe_allow_html=True)
     elif choice == "EDA":
-
         run_eda_app()
     elif choice == "ML":
         run_ml_app()
     else:
         st.subheader("About")
-        
-        
-
-
 if __name__ == "__main__":
     main()
