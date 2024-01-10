@@ -38,9 +38,9 @@ def main():
     elif choice == "ML":
         run_ml_app()
     else:
-	st.subheader("About")
-	    
-         
+        st.subheader("About")
+        
+        
 
 
 if __name__ == "__main__":
