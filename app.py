@@ -38,16 +38,17 @@ def main():
     elif choice == "ML":
         run_ml_app()
     else:
-        st.subheader("About")
-	st.markdown("#### Supervisor")
-        st.text("MD. Shahriar Rahman Rana")
-        st.markdown("#### Co Supervisor")
-        st.text("Rafeed Rahman")
-        st.markdown("#### Students")
-        st.text("Syed Aref Ahmed - 19201124 - syed.aref.ahmed@g.bracu.ac.bd ")
-        st.text("Khondokar Jamal E Mustafa - 19241008 - khondokar.jamal.e.mustafa@g.bracu.ac.bd")
-        st.text("MD. Nafis Tahmid - 19301053 - md.nafis.tahmid@g.bracu.ac.bd")
-        st.text(" Ibtesum Arif - 19201054 - ibtesum.arif@g.bracu.ac.bd")
+	    
+            st.subheader("About")
+	    st.markdown("#### Supervisor")
+            st.text("MD. Shahriar Rahman Rana")
+            st.markdown("#### Co Supervisor")
+            st.text("Rafeed Rahman")
+            st.markdown("#### Students")
+            st.text("Syed Aref Ahmed - 19201124 - syed.aref.ahmed@g.bracu.ac.bd ")
+            st.text("Khondokar Jamal E Mustafa - 19241008 - khondokar.jamal.e.mustafa@g.bracu.ac.bd")
+            st.text("MD. Nafis Tahmid - 19301053 - md.nafis.tahmid@g.bracu.ac.bd")
+            st.text(" Ibtesum Arif - 19201054 - ibtesum.arif@g.bracu.ac.bd")
         
 
 
