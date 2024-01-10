@@ -207,8 +207,8 @@ def run_ml_app():
 
         else:
             st.success("Negative Risk {}".format(prediction[0]))
-            pred_probability_score = {"Negative DM Risk": predict_prob[0][0]*100,
-                                      "Positive DM Risk": predict_prob[0][1]*100}
+            pred_probability_score = {"Positive DM Risk": predict_prob[0][0]*100,
+                                      "Negative DM Risk": predict_prob[0][1]*100}
             st.write(pred_probability_score)
 
 
