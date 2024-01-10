@@ -38,6 +38,7 @@ def main():
     elif choice == "ML":
         run_ml_app()
     else:
+	st.subheader("About")
 	    
          
         
